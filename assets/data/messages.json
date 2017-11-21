@@ -1,0 +1,148 @@
+[
+  {
+      "type": "text",
+      "text": "\uDBC0\uDC84 LINE emoji",
+      "created_at": "2017-11-18T05:13:24+00:00",
+      "owner": true
+  },
+  {
+      "type": "image",
+      "originalContentUrl": "http://via.placeholder.com/200x150",
+      "previewImageUrl": "http://via.placeholder.com/200x150",
+      "created_at": "2017-11-18T05:13:24+00:00",
+      "owner": false
+  },
+  {
+    "type": "template",
+    "altText": "this is a buttons template",
+    "created_at": "2017-11-18T05:13:24+00:00",
+    "owner": false,
+    "template": {
+        "type": "buttons",
+        "title": "Please select",
+        "actions": [
+            {
+              "type": "postback",
+              "label": "Buy",
+              "data": "action=buy&itemid=123"
+            },
+            {
+              "type": "postback",
+              "label": "Add to cart",
+              "data": "action=add&itemid=123"
+            },
+            {
+              "type": "uri",
+              "label": "View detail",
+              "uri": "http://example.com/page/123"
+            }
+        ]
+    }
+  },
+  {
+    "type": "template",
+    "altText": "this is a buttons template",
+    "created_at": "2017-11-18T05:13:24+00:00",
+    "owner": false,
+    "template": {
+        "type": "buttons",
+        "thumbnailImageUrl": "http://via.placeholder.com/200x150",
+        "title": "Brown Cafe",
+        "text": "Enjoy delicious food with a great atmosphere at our place.",
+        "actions": [
+            {
+              "type": "postback",
+              "label": "Buy",
+              "data": "action=buy&itemid=123"
+            },
+            {
+              "type": "postback",
+              "label": "Add to cart",
+              "data": "action=add&itemid=123"
+            },
+            {
+              "type": "uri",
+              "label": "View detail",
+              "uri": "http://example.com/page/123"
+            }
+        ]
+    }
+  },
+  {
+    "type": "template",
+    "altText": "This is a carousel template",
+    "created_at": "2017-11-18T05:13:24+00:00",
+    "owner": false,
+    "template": {
+        "type": "carousel",
+        "columns": [
+            {
+              "thumbnailImageUrl": "http://via.placeholder.com/200x150",
+              "title": "Brown Cafe",
+              "text": "Enjoy delicious food with a great atmosphere at our place.",
+              "actions": [
+                  {
+                      "type": "postback",
+                      "label": "Buy",
+                      "data": "action=buy&itemid=111"
+                  },
+                  {
+                      "type": "postback",
+                      "label": "Add to cart",
+                      "data": "action=add&itemid=111"
+                  },
+                  {
+                      "type": "uri",
+                      "label": "View detail",
+                      "uri": "http://example.com/page/111"
+                  }
+              ]
+            },
+            {
+              "thumbnailImageUrl": "http://via.placeholder.com/200x150",
+              "title": "Brown Cafe",
+              "text": "Enjoy delicious food with a great atmosphere at our place.",
+              "actions": [
+                  {
+                      "type": "postback",
+                      "label": "Buy",
+                      "data": "action=buy&itemid=222"
+                  },
+                  {
+                      "type": "postback",
+                      "label": "Add to cart",
+                      "data": "action=add&itemid=222"
+                  },
+                  {
+                      "type": "uri",
+                      "label": "View detail",
+                      "uri": "http://via.placeholder.com/200x150"
+                  }
+              ]
+            },
+            {
+              "thumbnailImageUrl": "http://via.placeholder.com/200x150",
+              "title": "Brown Cafe",
+              "text": "Enjoy delicious food with a great atmosphere at our place.",
+              "actions": [
+                  {
+                      "type": "postback",
+                      "label": "Buy",
+                      "data": "action=buy&itemid=222"
+                  },
+                  {
+                      "type": "postback",
+                      "label": "Add to cart",
+                      "data": "action=add&itemid=222"
+                  },
+                  {
+                      "type": "uri",
+                      "label": "View detail",
+                      "uri": "http://via.placeholder.com/200x150"
+                  }
+              ]
+            }
+        ]
+    }
+  }
+]
